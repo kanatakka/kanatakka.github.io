@@ -13,7 +13,7 @@
     name: 'App',
     data: function () {
       return {
-        msg: 'Hello world!'
+        msg: 'Hell world!'
       }
     }
   }

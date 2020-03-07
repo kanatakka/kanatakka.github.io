@@ -29,14 +29,14 @@ module.exports = {
   },
   plugins: [new VueLoaderPlugin()],
   resolve: {
-    extensions: ['.vue', '.js'],
+    extensions: [".vue", ".js"],
     alias: {
       // vueのディレクトリ指定っぽい？
-      'vue$': 'vue/dist/vue.js'
+      vue$: "vue/dist/vue.js"
     }
   },
   devServer: {
     // webpackの扱わないファイル(HTMLや画像など)が入っているディレクトリ
-    contentBase: path.resolve(__dirname, "public")
+    // contentBase: path.resolve(__dirname, "public")
   }
 };
